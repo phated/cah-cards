@@ -1,7 +1,45 @@
 cah-cards
 =========
 
-Fetch and process CAH cards
+CAH cards in JSON format
+
+## Usage
+
+Get all the cards
+
+```js
+var cards = require('cah-cards');
+```
+
+Get just the answers
+
+```js
+var answers = require('cah-cards/answers');
+```
+
+Get just the questions
+
+```js
+var questions = require('cah-cards/questions');
+```
+
+Get just questions that require 1 answer
+
+```js
+var pick1 = require('cah-cards/pick1');
+```
+
+Get just questions that require 2 answers
+
+```js
+var pick2 = require('cah-cards/pick2');
+```
+
+Get just questions that require 3 answers
+
+```js
+var pick3 = require('cah-cards/pick3');
+```
 
 ## License
 
