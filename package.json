@@ -1,6 +1,6 @@
 {
   "name": "cah-cards",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "CAH cards in JSON format",
   "main": "cards.json",
   "scripts": {
