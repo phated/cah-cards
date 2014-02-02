@@ -1,10 +1,11 @@
 {
   "name": "cah-cards",
   "version": "0.0.0",
-  "description": "Fetch and process CAH cards",
-  "main": "gulpfile.js",
+  "description": "CAH cards in JSON format",
+  "main": "cards.json",
   "scripts": {
-    "start": "gulp"
+    "start": "gulp",
+    "prepublish": "gulp"
   },
   "repository": {
     "type": "git",
@@ -16,7 +17,7 @@
     "url": "https://github.com/phated/cah-cards/issues"
   },
   "homepage": "https://github.com/phated/cah-cards",
-  "dependencies": {
+  "devDependencies": {
     "gulp": "~3.5.0",
     "lodash": "~2.4.1",
     "request": "~2.33.0",
